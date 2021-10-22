@@ -15,7 +15,7 @@ import { useServerTimeHub } from './services/server-time-hub';
 
 const App = () => {
 
-  const id = carEntranceId;
+  const id = process.env.CAR_ENTRANCE_ID;
   
   const {message, sound, isConnected} = useServerTimeHub(id, SERVER_URL);
   console.log("page Loaded:--------------------------------> ", isConnected);

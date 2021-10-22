@@ -10,5 +10,6 @@ window._env_ = {
     REACT_APP_AUTOMATICSILENTRENEW: "true",
     REACT_APP_LOADUSERINFO: "true",
     SKIP_PREFLIGHT_CHECK: "true",
+    CAR_ENTRANCE_ID: "91420d2e-c2cb-48e1-a454-bb3d82fedb00"
   }
   
